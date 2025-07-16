@@ -1,6 +1,6 @@
 # Variables
 # Variable - a reserved memory location that allows us to store data types and objects
-
+# - piece of data is subject to change (flexible to change)
 # Number value
 
 x = 5
@@ -18,8 +18,13 @@ print(x, y, z)
 
 # python is a strongly typed language in that the typing of variables is very important
 # if x = 1 and y = '2', x + y will fail
+# python does not implicitly convert data types
+# python needs an explicit convertion to turn a string into an integer
+
+
 
 #python is a dynamically typed language in that variable types are checked as the code is executed rather than before the code is executed
+
 
 
 print(id(x))
@@ -47,5 +52,13 @@ print(id(y))
 username = 'Nathan Hastings'
 age = 24
 DOB = "13/05/2001"
+
+name_str = input("Enter your name: ")
+
+birth_year = input("Enter your birth year: ")
+
+birth_month = int(input("Enter your birth month: "))
+
+birth_day = int(input("Enter your birth day: "))
 
 print(username, age, DOB)

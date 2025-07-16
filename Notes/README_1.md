@@ -72,4 +72,5 @@ Git commands
 - `git status` - check the state of everything
 - `git add` - add files to staging areas in order to commit them
 - `git add .` - adds all files to staging area in order to commit them
-- `git commit -m`
+- `git commit -m` - git commit with a message
+- `git reset` - must be careful, you can lose lots of changes with this command
