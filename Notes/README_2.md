@@ -34,3 +34,23 @@ Why understand and use APIs?
 - Automate interactions with cloud services and infrastructure
 - Used with various tools and platforms
 - Used to retrieve and manipulate data in external systems and services 
+
+### Collections
+
+Lists
+- lists AKA arrays allow you to create a list of objects
+- can contain different data types
+- are index based
+
+Dictionaries 
+- dictionaries aka hashmap or map
+- based on {key, value} pairs
+- give a particular key to a dictionary that it will use to store out information
+- dictionary keys will often be string values
+- the values that they store can be any data types
+
+List
+- to create a list you must use []
+- , separates items in a list
+- single data types are ideal and most common
+- 
