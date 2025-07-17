@@ -8,3 +8,6 @@ height_cm = 60.2
 # "Lassie is 7 years old and 60.2 cm tall."
 
 print(f"{name} is {years} years old and {height_cm} cm tall.")
+
+# you do not need to convert variables for f strings
+# f strings are designed to do the casting (converting) for you

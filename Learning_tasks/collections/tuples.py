@@ -22,3 +22,6 @@ essential_item4 = input("What is one more essential item you would take? ")
 essentials_tuple = (essential_item1, essential_item2, essential_item3, essential_item4)
 
 print("Here are your items as a tuple (with the 4th item added):", essentials_tuple)
+
+# tuples are immutable so they must be reassigned if they are to change
+# tuples are used for when values are not meant to be modified

@@ -8,6 +8,7 @@ print("Pi to 3 decimal places: " + format(pi, '.3f'))
 
 print("Pi to 5 decimal places: " + format(pi, '.5f'))
 
+print(f"{pi:.3f}")
 score = 16
 max_score = 26
 score_as_decimal = score / max_score
@@ -22,7 +23,10 @@ print(f"You scored {score_as_decimal:%}")
 
 # Use an f-string to print 'score_as_decimal' formatted as a percentage to rounded to 2 decimal places e.g. 'You scored 61.54%'
 
-print(f"You scored {format{score_as_decimal, '.2f'}:%}")
+print(f"You scored {score_as_decimal:.2%}")
+
+# the f formats it as a float
 
 # Use an f-string to print 'score_as_decimal' formatted as a percentage to rounded to a whole number e.g. 'You scored 62%'
 
+print(f"You scored {score_as_decimal:.0%}")

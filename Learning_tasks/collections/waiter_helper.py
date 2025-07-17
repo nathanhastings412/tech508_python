@@ -7,9 +7,15 @@
 
 # Print a list of starters
 
+starters = ["gyoza", "garlic bread", "chicken satay skewers"]
+print(starters)
+
 # Take an input for the user for their starter
 
 # Print a list of mains
+
+mains = ["lasagne", "mac n' cheese", "beef rigatoni"]
+print(mains)
 
 # Take an input for the user for their main course
 

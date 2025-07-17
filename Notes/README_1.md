@@ -74,3 +74,5 @@ Git commands
 - `git add .` - adds all files to staging area in order to commit them
 - `git commit -m` - git commit with a message
 - `git reset` - must be careful, you can lose lots of changes with this command
+- `git log` - shows previous commits
+- `git checkout [branch]` - gets you back to the main commit
