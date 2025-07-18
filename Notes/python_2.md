@@ -51,6 +51,6 @@ Dictionaries
 
 List
 - to create a list you must use []
-- , separates items in a list
+- `,` separates items in a list
 - single data types are ideal and most common
 - 

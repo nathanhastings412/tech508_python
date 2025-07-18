@@ -3,10 +3,10 @@
 # from time import process_time_ns
 #
 #
-# def print_something():
-#     print("this function is running")
+# def print_something():                # define function
+#     print("this function is running") # this is the code
 #
-# print_something()
+# print_something()                     # call function
 #
 # # Task 2
 #
@@ -72,11 +72,33 @@
 #     return num1/num2
 # a = 4
 # b = 6
-# print(division())
+# print(division(a,b))
 
 # you can put static values as variables into your functions
 
 # Task 9
 
 # function name should be relevant/descriptive (maybe a verb)
-# a function should have a single function`
+# a function should have a single function
+# a doc string is a multi line string which explains what the code does
+# a doc string often goes at the top of a function
+
+# def calculate_area(length, width):
+#     """
+#     Calculates the area of a rectangle.
+#
+#     Args:
+#         length (float): The length of the rectangle.
+#         width (float): The width of the rectangle.
+#
+#     Returns:
+#         float: The calculated area of the rectangle.
+#     """
+#     return length * width
+
+
+# # You can access the docstring using the __doc__ attribute
+# print(calculate_area.__doc__)
+#
+# # Or using the help() function
+# help(calculate_area)
