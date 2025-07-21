@@ -11,4 +11,4 @@ birth_year = int(input("Enter your birth year: "))
 total_days = (current_year - birth_year) * 365
 total_hours = total_days * 24
 
-print(total_hours)
+print(f"You are {total_hours} hours old")

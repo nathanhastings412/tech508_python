@@ -59,7 +59,7 @@ YAML:
 
 - Uses hyphens for lists
 - Strings don't need quotes
-- Indenting is necessary for nest lists, dictionaries
+- Indenting is necessary for nested lists, dictionaries
 
 ### Scripting
 
