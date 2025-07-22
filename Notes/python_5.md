@@ -104,3 +104,36 @@ API REST: Stateful vs Stateless
 - when you make an API request you must document 
 
 note: CLI = Command Line Interface
+
+### API questions
+- API allows you to access a database
+- what are the methods that apis use?
+  - GET, POST, PUT, PATCH, DELETE
+  - PUT - replace the whole thing
+  - PATCH - replace a piece of the coding
+- What are the data formats that are commonly used with REST APIs and why?
+  - JSON and XML
+    - because they allow for simple and efficient data transfer
+    - YAML needs to have its format and spacing coded (indentation) hence it is not as simple
+    - YAML also has more security issues
+- what method to remove an item from a dictionary?
+  - `dictionary.pop(<key>)`
+  - `dictionary.remove()`
+
+
+
+### scripting and programming
+- scripting is a type of programming
+#### scripting
+- complexity - usually simpler
+- purpose - usually to automating simple or routine tasks
+- execution - usually by an interpreter
+- developer cycle - usually shorter
+- learning curve - usually easier to learn
+
+#### programming
+- complexity - usually more complex, often includes more complex logic, data structures and algorithms
+- purpose - much wider purpose, including large applications and games
+- execution - either interpreted or needs to be compiled before being run
+- development cycle - usually longer and more involved in SDLC phases
+- learning curve - usually more involved to learn, including software design patterns
