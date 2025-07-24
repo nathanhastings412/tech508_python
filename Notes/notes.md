@@ -219,6 +219,15 @@ git bash commands
 - history - shows previous commands
 - !number uses that command
 
+if you upload sensitive information
+- you can delete the public repo (you still have your local files)
+- or make it private
+- take the sensitive information off the git repo
+- then you can uninitialise the git repo (remove the .git from the folder name)
+- then you can re git init (no commit history)
+- 
+- never let sensitive information get close to a git repo
+
 ## JSON Library and HTTP requests
 
 ### JSON library

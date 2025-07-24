@@ -27,5 +27,5 @@
 ### stop folder from being included in git repo
 - git command `ls -a` shows the hidden folder
 - if a folder is already being tracked by git, and then you ignore it, it will still be in the github repo
-- 
+- this folder will still be visible in previous commits but will not be visible in future commits
 
