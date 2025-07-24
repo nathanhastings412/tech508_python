@@ -207,8 +207,17 @@ git bash commands
 - git remote add origin - this is the way your local repo will sync up with the remote storage location
 - git push -u origin main - 
 - git clone <URL> (of the remote repo)
+- git rm - remove file
+- git log - shows a list of commits
+- git checkout - checks out a previous commit
 - nano <folder> - command line text editor
 - cat <folder> - shows the contents of the folder in the terminal
+- what to do when you're stuck in terminal:
+  - `q`
+  - `CTRL+Z`
+  - `CTRL+C`
+- history - shows previous commands
+- !number uses that command
 
 ## JSON Library and HTTP requests
 
