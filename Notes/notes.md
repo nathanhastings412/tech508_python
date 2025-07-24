@@ -197,6 +197,7 @@ git bash commands
 - pwd - present working directory
 - mkdir - make directory
 - ls - list contents
+- ls -a - list hidden contents
 - cd <folder> - change directory into that folder
 - git init - initialises a repository with git
 - git status
