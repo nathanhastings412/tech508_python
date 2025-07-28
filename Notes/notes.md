@@ -194,7 +194,7 @@ Converting between formats (python, JSON, YAML)
   - `r` means read only
 
 git bash commands
-- pwd - present working directory
+- pwd - print working directory
 - mkdir - make directory
 - ls - list contents
 - ls -a - list hidden contents
@@ -218,6 +218,20 @@ git bash commands
   - `CTRL+C`
 - history - shows previous commands
 - !number uses that command
+- one `.` means current directory
+- two `..` means parent directory
+- rm -rf ~/.git - this is going to forcibly remove (recursively) everything inside the git repository
+- ~ refers to home directory so the above code is actually saying remove .git (uninitialise the folder with git) in the home directory folder
+
+SSH keys
+- .SSH folder
+- ssh-keygen -t rsa -b 4096 -C "nathanhastings412@gmail.com"
+- cat nathan-github-key.pub
+- eval `ssh-agent -s` - creates agent process ID
+- ssh-add nathan-github-key
+- now we want to test we can authenticate with github
+- ssh -T git@github.com
+
 
 if you upload sensitive information
 - you can delete the public repo (you still have your local files)
