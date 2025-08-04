@@ -2,7 +2,7 @@
 
 ## code
 
-to do
+### to do
 - finish this document
 - learn basic parameters
 - consolidate KNOWLEDGE from this last week
@@ -12,7 +12,7 @@ to do
 - revisit APIs
 - practice functions and loops
 
-tools
+### tools
 - W3 schools
 - python libraries
 - youtube
@@ -20,11 +20,11 @@ tools
 - revisit recordings
 - learn how to run scripts from the command line in python
 
-code
+### code
 - variables
 - `print` 
 
-strings
+### strings
 - `len()` counts the characters in a string
   - also other data types
 - `.count("text")` counts all instances of "text" 
@@ -34,18 +34,18 @@ strings
 - `.replace(,)` replaces one bit of text with another
 - `print(<variable>[1:3])` - prints characters with the indexes 1 and 2 (format is [start:stop:step])
 
-f strings
+### f strings
 - `f"text"` - designed to cast for you, you can input variables of different data types into an f string and it will cast them into strings
 - `(f"{(30/80) * 100:.2%}")` this gives the answer to decimal places and as a percentage
   - can also do `(percentage, 2)` on a normal round()
 
-convert data types and concatenation
+### convert data types and concatenation
 - Concatenation is joining strings together
 - `str(<non-string variable>)`
 - `int(<non-int variable>)`
 - `float(<non-float variable>)`
 
-data types and operations
+### data types and operations
 - obvious ones
 - `%` modulus gives remainder
   - 7 % 2 gives 1 as a remainder
@@ -53,7 +53,7 @@ data types and operations
 - `>=`
 - `!=`
 
-Lists
+### Lists
 - `[]` and separated by `,`
 - work similarly to strings (e.g. `[0]` refers to first list item)
 - `<list>[2] = <string>` replaces the third list item with a new item
@@ -62,7 +62,7 @@ Lists
 - `.remove()` removes specific
 - `.pop()` removes the last item
 
-Dictionaries and their methods
+### Dictionaries and their methods
 - key: value pairs
 - `dictionary(<key>)` gives the value for that key
 - `dictionary[<key>] = ` amends the value of that key
@@ -75,7 +75,7 @@ Dictionaries and their methods
 - `.setdefault(key, default)` sets default value if key is missing
 - `.popitem()` removes and returns last inserted pair
 
-Tuples
+### Tuples
 - immutable
   - cannot change elements, add or remove items, or sort or reverse it in place
 - must reassign if you want to change it
@@ -180,7 +180,7 @@ numbers = [1, 2, 3, 4, 5]
 - `input()` allows for user input
 - `none` often used to initialise a variable when you dont have a real value to give it yet
 
-converting to and from JSON and Yaml
+### converting to and from JSON and Yaml
 - `json.dump` (dictionary) -> JSON-formatted string
 - `json.dumps` (dictionary) -> JSON-formatted file
 - `json.load` (JSON file) -> python dictionary
@@ -188,42 +188,12 @@ converting to and from JSON and Yaml
 - `yaml.dump` (dictionary) -> YAML string
 - `yaml.safe_load` (YAML file) -> python dictionary
 
-Converting between formats (python, JSON, YAML)
+### Converting between formats (python, JSON, YAML)
 - `with open("<file name>", "w") as file:`
   - the `w` means write - you can write in that file
   - `r` means read only
 
-git bash commands
-- pwd - print working directory
-- mkdir - make directory
-- ls - list contents
-- ls -a - list hidden contents
-- cd <folder> - change directory into that folder
-- git init - initialises a repository with git
-- git status
-- git add 
-- git commit -m ""
-- git branch -M main - renames your master branch to main
-- git remote add origin - this is the way your local repo will sync up with the remote storage location
-- git push -u origin main - 
-- git clone <URL> (of the remote repo)
-- git rm - remove file
-- git log - shows a list of commits
-- git checkout - checks out a previous commit
-- nano <folder> - command line text editor
-- cat <folder> - shows the contents of the folder in the terminal
-- what to do when you're stuck in terminal:
-  - `q`
-  - `CTRL+Z`
-  - `CTRL+C`
-- history - shows previous commands
-- !number uses that command
-- one `.` means current directory
-- two `..` means parent directory
-- rm -rf ~/.git - this is going to forcibly remove (recursively) everything inside the git repository
-- ~ refers to home directory so the above code is actually saying remove .git (uninitialise the folder with git) in the home directory folder
-
-SSH keys
+### SSH keys
 - .SSH folder
 - ssh-keygen -t rsa -b 4096 -C "nathanhastings412@gmail.com"
 - cat nathan-github-key.pub
@@ -233,7 +203,7 @@ SSH keys
 - ssh -T git@github.com
 
 
-if you upload sensitive information
+### if you upload sensitive information
 - you can delete the public repo (you still have your local files)
 - or make it private
 - take the sensitive information off the git repo

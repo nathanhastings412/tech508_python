@@ -116,6 +116,34 @@
 # print(is_weekend("saturday"))
 # print(is_weekend("monday"))
 
-def is_even(num):
-    return
+# def is_even(num):
+# #     return
+#
+# numbers = [1, 4, 5, 8, 10, 3]
+# even_numbers = (numbers.iseven())
+#
+# print(sum(even_numbers))
+#
+# students = {
+#     "Emma": {"math": 90, "english": 85},
+#     "Liam": {"math": 78, "english": 92}
+# }
+#
+# for student, score in students:
+#     math_score = students[student]["math"]
+#     english_score = students[student]["english"]
+#     print(f"Student: {student}, Score: {math_score}, English: {english_score}")
 
+# def char_frequency(s):
+#     freq = {}
+#     for char in s.lower():
+#         if char != " ":
+#             freq[char] = freq.get(char, 0) + 1
+#     return freq
+#
+# print(char_frequency("Hello World"))
+#
+# def remove_outliers(numbers, lower, upper):
+#     return [num for num in numbers if lower <= num <= upper]
+#
+# print(remove_outliers([3, 7, 2, 9, 15, 1], 3, 10))

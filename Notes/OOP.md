@@ -73,3 +73,12 @@ Polymorphism	Same method name can work differently depending on the object
 - Inheritance in that differently specialised cars fall under CAR but CAR falls under VEHICLE
 	- VEHICLE would be superclass of CAR
 	- CAR would be subclass of VEHICLE
+	- base class = superclass
+	- derived class - subclass
+	
+## Polymorphism
+Polymorphism - get a message, do something
+- you can tell different things to start (e.g. car, aeroplane, washing machine, microwave, job application)
+- they all do something different when started
+- In the programming world, you can have several different classes, all of which know how to respond to the 
+same message, but the classes themselves know how to perform that action for their particular case
